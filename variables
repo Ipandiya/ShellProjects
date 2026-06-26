@@ -3,13 +3,13 @@
 # We will list out all the variables types in shell
 
 
-#No spaces around =
-
+#No spaces around = 
 name="Ishani"
 age=26
 
 
 #Calling variables using $
+
 Echo "Hello, I am $name"
 #We can also use curly brackets{}
 echo "I am ${age} years old  :("
