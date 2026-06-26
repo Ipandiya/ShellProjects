@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# We will list out all the variables types in shell
+
+
+#No spaces around =
+
+name="Ishani"
+age=26
+
+
+#Calling variables using $
+Echo "Hello, I am $name"
+#We can also use curly brackets{}
+echo "I am ${age} years old  :("
+
+
+#Special variables
+
+echo "function name is $0"
+echo "First argument is $1 and so on"
+echo "total number of arguments are $# "
+echo "All arguments are : $@ "
+echo "exit status: $? "
+
+echo "current process Id: $$ "
+
+
+
+#Using Enviroment variables
+
+#setting up a custom env variable
+export fullname="Ishani"
+
+#some common env variables
+echo "Current user:  $USER "
+echo "Current path: $PATH "
+echo "Home directory: $home "
+echo "shell: $SHELL "
+
+
+
+
+
