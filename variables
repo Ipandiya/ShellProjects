@@ -15,7 +15,7 @@ Echo "Hello, I am $name"
 echo "I am ${age} years old  :("
 
 
-#Special variables
+#Common special variables
 
 echo "function name is $0"
 echo "First argument is $1 and so on"
