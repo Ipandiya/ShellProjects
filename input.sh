@@ -2,7 +2,7 @@
 
 
 #This will showcase how to read input from command prompt
-#basics: use "read" command
+#basics: input from the command prompt
 
 echo "what species are you?"
 read species
