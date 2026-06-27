@@ -1,8 +1,7 @@
 #!/bin/bash
 
 
-#This will showcase how to read input from prompt
-
+#This will showcase how to read input from command prompt
 #basics: use "read" command
 
 echo "what species are you?"
